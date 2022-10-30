@@ -1,5 +1,5 @@
 -Hi, my name is Jakub Mátl
--Currently stying at Faculty of Nuclear Sciences and Physical Engineering - Nuclear engineering
+-Currently studying at Faculty of Nuclear Sciences and Physical Engineering - Nuclear engineering
 -Interested in stochastic and deterministic codes 
 -Also interested in code-coupling
 
