@@ -1,0 +1,46 @@
+\babel@toc {czech}{}\relax 
+\contentsline {chapter}{Seznam obr\'azk\r {u}}{11}{chapter*.2}%
+\contentsline {chapter}{Seznam tabulek}{13}{chapter*.3}%
+\contentsline {chapter}{Úvod}{15}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Termohydraulické systémové kódy}{17}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Úvod}{17}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Oblasti aplikace}{17}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Hodnocení systémových kódů}{18}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Limitace systémových kódů}{18}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Aplikace na výzkumné reaktory}{19}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Benchmarková úloha}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Popis experimentu}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Základní hydraulické komponenty v kódu RELAP5}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Model v RELAP5}{24}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Výsledky experimentů a výpočtů}{25}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Termohydraulický model palivového článku IRT-4M}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Hydraulický model IRT-4M}{27}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Ověření správnosti modelu}{30}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Zjednodušený hydraulický model}{31}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Ověření správnosti modelu}{31}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Termohydraulický model PČ IRT-4M}{34}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Sjednocení průtočných kanálů}{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Celkový průtok skrz PČ}{37}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Ohřev chladiva na výstupu z jednotlivých kanálů (trubek) PČ}{38}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Výskyt povrchového varu}{39}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Zhodnocení sjednocení průtočných kanálů}{40}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Sjednocení topných komponent}{41}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Výpočet a zhodnocení sjednocení HS}{41}{subsection.3.5.1}%
+\contentsline {chapter}{\numberline {4}Termohydraulický model reaktoru VR-1}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Referenční model}{44}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Výsledky}{44}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Model NOD01}{46}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Výsledky}{47}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Model NOD02}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Výsledky}{49}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Model NOD03}{51}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Výsledky}{52}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Model NOD04}{53}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Výsledky}{54}{subsection.4.5.1}%
+\contentsline {chapter}{\numberline {5}Hodnocení termohydraulických modelů}{57}{chapter.5}%
+\contentsline {chapter}{Závěr}{61}{chapter*.62}%
+\contentsline {chapter}{Literatura}{63}{chapter*.63}%
+\contentsline {chapter}{Přílohy}{65}{chapter*.63}%
+\contentsline {chapter}{\numberline {A}Přehled modelů}{65}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Tabulky}{67}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Obrázky}{69}{appendix.C}%

@@ -1,0 +1,122 @@
+\begin{thebibliography}{10}
+
+\bibitem{international1992iaea}
+{\em Research Reactor Core Conversion Guidebook, Volume 4: Fuels (Appendices
+  I-K)}.
+\newblock Number 643/4 in TECDOC Series. INTERNATIONAL ATOMIC ENERGY AGENCY,
+  Vienna, 1992.
+
+\bibitem{international2022iaea_benchmark_database}
+{\em Research Reactor Benchmarking Database: Facility Specification and
+  Experimental Data (Revision)}.
+\newblock Number 480 (Rev.1) in Technical Reports Series. INTERNATIONAL ATOMIC
+  ENERGY AGENCY, Vienna, 2022.
+
+\bibitem{AZZOUNE2010823}
+M.~Azzoune, L.~Mammou, M.H. Boulheouchat, T.~Zidi, M.Y. Mokeddem, S.~Belaid,
+  A.~{Bousbia Salah}, B.~Meftah, and A.~Boumedien.
+\newblock Nur research reactor safety analysis study for long time natural
+  convection (nc) operation mode.
+\newblock {\em Nuclear Engineering and Design}, 240(4):823--831, 2010.
+
+\bibitem{bestion2017structure}
+D~Bestion.
+\newblock The structure of system thermal-hydraulic (sys-th) code for nuclear
+  energy applications.
+\newblock In {\em Thermal-Hydraulics of Water Cooled Nuclear Reactors}, pages
+  639--727. Elsevier, 2017.
+
+\bibitem{BILY201997}
+Tomas Bily, Jan Rataj, Ondrej Huml, and Ondrej Chvala.
+\newblock Effect of kinetics parameters on transients calculations in external
+  source driven subcritical vr-1 reactor.
+\newblock {\em Annals of Nuclear Energy}, 123:97--109, 2019.
+
+\bibitem{CHATZIDAKIS_ASSESMENT_RSG}
+S.~Chatzidakis, A.~Hainoun, A.~Doval, F.~Alhabet, F.~Francioni,
+  A.~Ikonomopoulos, and D.~Ridikas.
+\newblock A comparative assessment of independent thermal-hydraulic models for
+  research reactors: The rsg-gas case.
+\newblock {\em Nuclear Engineering and Design}, 268:77--86, 2014.
+
+\bibitem{CHATZIDAKIS2013341}
+S.~Chatzidakis and A.~Ikonomopoulos.
+\newblock Phenomenological investigation of loss of coolant accident in a
+  research reactor facility.
+\newblock {\em Nuclear Engineering and Design}, 256:341--349, 2013.
+
+\bibitem{relap_manual}
+US~Nuclear~Regulatory Commission et~al.
+\newblock Relap5/mod3. 2 code manual: Code structure, system models, and
+  solution methods.
+\newblock {\em Idaho: National Engineering Laboratory}, 2001.
+
+\bibitem{fejt}
+F.~Fejt.
+\newblock {\em Analýza termohydraulických modelů reaktoru VR-1 s využitím
+  trojrozměrné kinetiky.}
+\newblock PhD thesis, 2019.
+
+\bibitem{HEDAYAT2017953}
+Afshin Hedayat.
+\newblock Simulation and transient analyses of a complete passive heat removal
+  system in a downward cooling pool-type material testing reactor against a
+  complete station blackout and long-term natural convection mode using the
+  relap5/3.2 code.
+\newblock {\em Nuclear Engineering and Technology}, 49(5), 2017.
+
+\bibitem{CAPABILITY2017RELAP}
+Xiaofan Hou, Zhongning Sun, and Wenjing Lei.
+\newblock Capability of relap5 code to simulate the thermal-hydraulic
+  characteristics of open natural circulation.
+\newblock {\em Annals of Nuclear Energy}, 109:612--625, 2017.
+
+\bibitem{TRIGA_CFD}
+Carolina Introini, Davide Chiesa, Massimiliano Nastasi, Ezio Previtali, Andrea
+  Salvini, Monica Sisti, Xiang Wang, and Antonio Cammi.
+\newblock A complete cfd study on natural convection in the triga mark ii
+  reactor.
+\newblock {\em Nuclear Engineering and Design}, 403:112118, 2023.
+
+\bibitem{KONCAR2003255}
+Boštjan Končar and Borut Mavko.
+\newblock Modelling of low-pressure subcooled flow boiling using the relap5
+  code.
+\newblock {\em Nuclear Engineering and Design}, 220(3):255--273, 2003.
+
+\bibitem{OMAR2010572}
+H.~Omar, N.~Ghazi, F.~Alhabit, and A.~Hainoun.
+\newblock Thermal hydraulic analysis of syrian mnsr research reactor using
+  relap5/mod3.2 code.
+\newblock {\em Annals of Nuclear Energy}, 37(4):572--581, 2010.
+
+\bibitem{petruzzi2008thermal}
+Alessandro Petruzzi and Francesco D'Auria.
+\newblock Thermal-hydraulic system codes in nuclear reactor safety and
+  qualification procedures.
+\newblock {\em Science and Technology of Nuclear Installations}, 2008, 2008.
+
+\bibitem{rataj_bezpecnosti_zprava_VR_1}
+J.; al. et~al. Rataj.
+\newblock Bezpečnostní zpráva školního reaktoru vr-1.
+\newblock Technical report, KJR FJFI ČVUT v Praze, 2017.
+
+\bibitem{REIS2012300}
+Patrícia~A.L. Reis, Antonella~L. Costa, Claubia Pereira, Clarysson~A.M. Silva,
+  Maria Auxiliadora~F. Veloso, and Amir~Z. Mesquita.
+\newblock Sensitivity analysis to a relap5 nodalization developed for a typical
+  triga research reactor.
+\newblock {\em Nuclear Engineering and Design}, 242:300--306, 2012.
+
+\bibitem{zeitoun1994subcooled}
+Obida~M Zeitoun.
+\newblock {\em Subcooled flow boiling and condensation}.
+\newblock PhD thesis, 1994.
+
+\bibitem{sedlbauer2019}
+M.~Šedlbauer.
+\newblock Individuální program zajišťování kvality a technické
+  bezpečnosti jaderného paliva irt-4m na školním reaktoru vr-1.
+\newblock Technical report, KJR FJFI ČVUT v Praze, 2019.
+
+\end{thebibliography}

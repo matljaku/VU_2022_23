@@ -1,0 +1,25 @@
+\babel@toc {czech}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Podmínky pro ověření modelu \cite {zeitoun1994subcooled}.\relax }}{25}{table.caption.10}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Relativní objemové průtoky skrze palivový článek (s odpovídajícím vytěsnitelem).\relax }}{30}{table.caption.15}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Celkový objemový průtok 8-trubkovým PČ (s vytěsnitelem).\relax }}{30}{table.caption.16}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Rozložení rychlostí v kanálech 8-trubkového PČ (s vytěsnitelem).\relax }}{30}{table.caption.17}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Průtok v komplexním a zjednodušeném modelu PČ (bez vytěsnitele) pro různé hydraulické průměry. \relax }}{33}{table.caption.21}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Rozměry ekvivalentních HS pro PČ IRT-4M a jejich napojení na jednotlivé trubky (viz Obr. \ref {fig:irt_nat_conv_komplex} a \ref {fig:irt_nat_conv_jedno}). \relax }}{34}{table.caption.22}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Rozložení výkonu v 8-trubkovém PČ IRT-4M dle programu Serpent.\relax }}{37}{table.caption.25}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Celkový průtok skrz PČ pro komplexní a zjednodušený model při rovnoměrném rozdělením výkonu a rozdělením dle programu Serpent2.\relax }}{38}{table.caption.27}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Ohřev chladiva na výstupu z PČ pro jednotlivé kanály (RV - rovnoměrný výkon, S - výkon dle Serpent2, KM \& JM - komplexní a zjednodušený model).\relax }}{39}{table.caption.29}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Geometrie sjednocené HS.\relax }}{41}{table.caption.34}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Celkový průtok, ohřev a maximální teplota HS pro zjednodušený a jednotkový model.\relax }}{41}{table.caption.35}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Maximální a průměerné teploty HS pro jednotlivé modely.\relax }}{60}{table.caption.61}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Přehled použitých modelů PČ IRT-4M (Modely označené hvězdičkou byly vytvořeny i pro 6-trubkovou a 4-trubkovou konfiguraci).\relax }}{65}{table.caption.64}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Přehled nodalizací modelu školního reaktoru VR-1.\relax }}{65}{table.caption.65}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Geometrie 8-trubkového palivového článku IRT-4M \cite {sedlbauer2019}\relax }}{67}{table.caption.66}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Průběh výkonu jednoho PČ.\relax }}{67}{table.caption.67}%
+\addvspace {10\p@ }

@@ -1,0 +1,79 @@
+\babel@toc {czech}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Proces interního hodnocení kódu.\relax }}{18}{figure.caption.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Geometrie testovací trubice \cite {zeitoun1994subcooled}.\relax }}{22}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces {Testovací smyčka \cite {zeitoun1994subcooled}.}\relax }}{22}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Hydraulické komponenty v programu RELAP5.\relax }}{23}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Termohydraulický model testovací trubice - RELAP.\relax }}{24}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Srovnání dutinového koeficientu - exp. BC1.\relax }}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Srovnání dutinového koeficientu - exp. BC7.\relax }}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Srovnání dutinového koeficientu - exp. BC9.\relax }}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Srovnání dutinového koeficientu - exp. BC13.\relax }}{26}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Radiální řez palivovým článkem IRT-4M.\relax }}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Radiální řez palivovým článkem IRT-4M v detailu.\relax }}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Axiální řez palivovým článkem IRT-4M.\relax }}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Hydraulický model palivového článku IRT-4M.\relax }}{29}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Průtok a rychlost v jednotlivých kanálech.\relax }}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Zjednodušený hydraulický model palivového článku IRT-4M.\relax }}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Závislost průtoku skrz PČ (bez vytěsnitele) na hydraulickém průměru.\relax }}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Termohydraulický komplexní model 8-trubkového PČ IRT-4M bez vytěsnitele (Pro lepší vizualizaci byly měřítka komponent 53 až 62 změněna).\relax }}{35}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Termohydraulický zjednodušený model 8-trubkového PČ IRT-4M bez vytěsnitele (Pro lepší vizualizaci byly měřítka komponent 53-62 změněna).\relax }}{36}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Axiální a radiální rozložení výkonu v 8-trubkovém PČ IRT-4M - Serpent2.\relax }}{37}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Ohřev na výstupu z jednotlivých kanálů pro jednotlivé modely.\relax }}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Závislost ohřevu pro komplexní a zjednodušený model - rovnoměrný výkon (poměr teplot je poměr rozídlu teploty na výstupu z kanálu zjednodušeného modelu a komplexního modelu).\relax }}{39}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Závislost ohřevu pro komplexní a zjednodušený model - výkon dle Serpent2 (poměr teplot je poměr rozídlu teploty na výstupu z kanálu zjednodušeného modelu a komplexního modelu).\relax }}{39}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Komplexní model\relax }}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Zjednodušený model\relax }}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Možný výskyt povrchového bublinkového varu - rovnoměrné rozdělení výkonu (červeně nódy označují možný výskyt varu, modré přirozenou konvekci bez změny fáze).\relax }}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Komplexní model\relax }}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Zjednodušený model\relax }}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Možný výskyt povrchového bublinkového varu - rozdělení výkonu dle Serpent2 (červeně nódy označují možný výskyt varu, modré přirozenou konvekci bez změny fáze).\relax }}{40}{figure.caption.33}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CFD výpočet přirozeného proudění skrze reaktor TRIGA MARK II \cite {TRIGA_CFD}.\relax }}{43}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Popis přirozeného proudění skrze palivový článek pro referenční model.\relax }}{44}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Termohydraulický model reaktoru VR-1.\relax }}{45}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Časový vývoj teplot v jednotlivých nódech trubky 40.\relax }}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Nodalizace horizontálního obtoku - model NOD01\relax }}{47}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Průtok skrze AZ reaktoru VR-1 - referenční a renodalizovaný model NOD01. \relax }}{48}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Průtok skrze trubky 170 - 174 (viz obr. \ref {fig:nod_01}) - renodalizovaný model NOD01.\relax }}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Teplotní vývoj v trubce 40 - model NOD01.\relax }}{48}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Nodalizace vertikálního obtoku - model NOD02\relax }}{49}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Průtok skrze AZ reaktoru VR-1 - referenční a renodalizovaný model NOD02.\relax }}{50}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Průtok spojovacími jednotkami (SJ) ve vertikálním obtoku - model NOD02.\relax }}{50}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Teplotní vývoj v trubce 40 - model NOD02.\relax }}{51}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Nodalizace horizontálního obtoku - model NOD03\relax }}{52}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Průtok skrze jednotlivé SJ (S3 a S4) - model NOD03.\relax }}{52}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Průtok skrze AZ reaktoru VR-1 - referenční a renodalizovaný model NOD03. \relax }}{53}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Teplotní vývoj v trubce 40 - model NOD03.\relax }}{53}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Nodalizace horizontálního obtoku - model NOD04\relax }}{54}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Průtok skrze AZ reaktoru VR-1 - Referenční model a renodalizovaný model NOD01, NOD03 a NOD04.\relax }}{55}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Průtok skrze jednotlivé SJ (S3 a S4) - model NOD04.\relax }}{55}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Teplotní vývoj v trubce 40 - model NOD04.\relax }}{55}{figure.caption.55}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Průměrné teploty a rychlosti v jednotlivých částech AZ reaktoru TRIGA Mark II (CFD výpočet) \cite {TRIGA_CFD}.\relax }}{57}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Průtok skrz AZ reaktoru VR-1 pro jednotlivé modely (RELAP5).\relax }}{58}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Teploty chladiva na výstupu z AZ reaktoru VR-1 pro jednotlivé modely (RELAP5).\relax }}{58}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Vstupní teplota chladiva pro jednotlivé modely (RELAP5)\relax }}{59}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Výstupní teplota chladiva pro jednotlivé modely (RELAP5).\relax }}{59}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Průtok skrz AZ reaktoru VR-1 pro jednotlivé modely (RELAP5).\relax }}{59}{figure.caption.60}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Konstrukce reaktoru VR-1 \cite {BILY201997}.\relax }}{70}{figure.caption.68}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Konstrukce reaktoru TRIGA Mark I \cite {TRIGA_CFD}.\relax }}{71}{figure.caption.69}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Termohydraulický model reaktoru VR-1 - Referenční model (NOD00).\relax }}{72}{figure.caption.70}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Termohydraulický model reaktoru VR-1 - model NOD01.\relax }}{73}{figure.caption.71}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Termohydraulický model reaktoru VR-1 - model NOD02.\relax }}{74}{figure.caption.72}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Termohydraulický model reaktoru VR-1 - model NOD03.\relax }}{75}{figure.caption.73}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Termohydraulický model reaktoru VR-1 - Model NOD04\relax }}{76}{figure.caption.74}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Rozložení teplot v trubce 40\relax }}{77}{figure.caption.75}%
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Rozložení teplot v trubce 40.\relax }}{77}{figure.caption.76}%
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Rozložení teplot v trubce 40.\relax }}{77}{figure.caption.77}%
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Průtok skupinou S1 a S2 - model NOD03.\relax }}{78}{figure.caption.78}%
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Průtok skupinou S3 a S4 - model NOD03.\relax }}{78}{figure.caption.79}%
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Průtok skupinou S5 a S6 - model NOD03.\relax }}{78}{figure.caption.80}%
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Průtok skupinou S1 a S2 - model NOD04.\relax }}{79}{figure.caption.81}%
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Průtok skupinou S3 a S4 - model NOD04.\relax }}{79}{figure.caption.82}%
+\contentsline {figure}{\numberline {C.16}{\ignorespaces Průtok skupinou S5 a S6 - model NOD04.\relax }}{79}{figure.caption.83}%

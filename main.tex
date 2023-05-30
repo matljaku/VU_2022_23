@@ -1,0 +1,222 @@
+\documentclass[a4paper,twoside,1pt]{book}
+
+\input{packages.tex}
+
+\input{config.tex}
+
+
+\begin{document}
+%%%%%%%%%%%% TITULNÍ STRANA -- na následujících cca 30 řádků NESAHEJTE!!!  Generuje se AUTOMATICKY %%%%%%%%%%%%
+\thispagestyle{empty}
+
+\begin{center}
+	{\LARGE
+		\cvut\par
+		\fjfi
+	}
+    \vspace{10mm}
+
+    \begin{tabular}{c}
+		\tb{\kjr} \\[3pt]   
+		\tb{Obor: \obor}\\
+    \end{tabular}
+
+   \vspace{10mm} \logoCVUT \vspace{15mm} 
+
+   {\huge \tb{\nazevcz}\par}
+   \vspace{5mm}   
+   {\huge \tb{\nazeven}\par}
+   
+   \vspace{15mm}
+   {\Large \MakeUppercase{\druh}}
+
+   \vfill
+   {\large
+    \begin{tabular}{ll}
+    Vypracoval: & \autor\\
+    Vedoucí práce: & \vedouci\\
+    Rok: & \rok
+    \end{tabular}
+   }
+\end{center}
+
+\clearpage{\pagestyle{empty}\cleardoublepage} % prázdná stránka za tou "titulní", bez čísla
+
+%%%%%%%%%%%% ZADÁNÍ PRÁCE %%%%%%%%%%%%
+% Zadání (podepsané děkanem!) musíte NASKENOVAT. Ideálně jako 2stránkové PDF (soubor "zadani_cele.pdf"). 
+% Před svázáním to v jednom výtisku VYMĚNÍTE ZA ORIGINÁLNÍ ZADÁNÍ (podepsané děkanem fakulty)!
+\newpage  % SEM NESAHEJTE!
+\thispagestyle{empty} % SEM NESAHEJTE!
+
+%% zde podle toho, jak jste zadání naskenovali, VYBERTE variantu A, B nebo C:
+%
+% --- varianta A: zadání naskenované jako 2stránkové PDF:
+\includepdf[pages={1,2}]{./zadani_logo/zadani_cele.pdf} % NAHRAĎTE správným souborem!
+%
+%% --- varianta B: zadání naskenované jako jednotlivé stránky:
+%\includepdf[pages={1}]{zadani1.pdf} % 1. strana zadání v PDF
+%\includepdf[pages={1}]{zadani2.pdf} % 2. strana zadání v PDF
+%
+%% --- varianta C: zadání naskenované jako 2 samostatné obrázky:
+%% 1. strana zadání
+%\begin{center}
+%     \includegraphics[width=1\textwidth]{zadani1.jpg}
+%\end{center}
+%% 2. strana zadání
+%\newpage  % SEM NESAHEJTE!
+%\thispagestyle{empty} % SEM NESAHEJTE!
+%\begin{center}
+%     \includegraphics[width=1\textwidth]{zadani2.jpg}
+%\end{center}
+
+
+%%%%%%%%%%%% Prohlášení -- SEM NESAHEJTE! Generuje se automaticky z výše nastavených maker \kde{} a \prohlaseni{}. %%%%%%%%%%%%
+\newpage % SEM NESAHEJTE!
+\thispagestyle{empty}  % SEM NESAHEJTE!
+
+~ % SEM NESAHEJTE!
+\vfill % prázdné místo. SEM NESAHEJTE!
+
+\tb{Prohlášení} % SEM NESAHEJTE!
+
+\vspace{1em} % vertikální mezera. SEM NESAHEJTE!
+\prohlaseni
+
+\vspace{2em}  % SEM NESAHEJTE!
+\hspace{-0.5em}\begin{tabularx}{\textwidth}{X c}  % SEM NESAHEJTE!
+V \kde\ dne .................... &........................................ \\	% SEM NESAHEJTE!
+	& \autor
+\end{tabularx}	% SEM NESAHEJTE!
+
+
+%%%%%%%%%%%% Poděkování  %%%%%%%%%%%%
+\newpage
+\thispagestyle{empty}
+
+~
+\vfill % prázdné místo
+
+
+% -- následující kus kódu (do "%%%%%%%%%%%% ABSTRAKT") můžete odstranit, pokud nechcete psát poděkování:
+\tb{Poděkování}
+
+\vspace{1em} % vertikální mezera
+\podekovani
+\begin{flushright}
+\autor
+\end{flushright}  % <------- tady končí stránka s poděkováním
+
+
+%%%%%%%%%%%% ABSTRAKT atp. Je generován AUTOMATICKY podle maker nastavených na začátku souboru) %%%%%%%%%%%% 
+\newpage   % SEM NESAHEJTE!
+\thispagestyle{empty}   % SEM NESAHEJTE!
+
+% příprava:    (na následujících 8 řádků NESAHEJTE!)
+\newbox\odstavecbox
+\newlength\vyskaodstavce
+\newcommand\odstavec[2]{%
+    \setbox\odstavecbox=\hbox{%
+         \parbox[t]{#1}{#2\vrule width 0pt depth 4pt}}%
+    \global\vyskaodstavce=\dp\odstavecbox
+    \box\odstavecbox}
+\newcommand{\delka}{120mm} % šířka textů ve 2. sloupci tabulky
+
+% použití přípravy:    % dovnitř "tabular" vůbec NESAHEJTE!
+\begin{tabular}{ll}
+  {\em Název práce:} & ~ \\
+  \multicolumn{2}{l}{\odstavec{\textwidth}{\bf \nazevcz}} \\[1em]
+  {\em Autor:} & \autor \\[1em]
+  {\em Studijní program:} & \program \\
+  {\em Obor:} & \obor \\
+  {\em Druh práce:} & \druh \\[1em]
+  {\em Vedoucí práce:} & \odstavec{\delka}{\vedouci\\ \pracovisteVed} \\
+  {\em Konzultant:} & -- %\odstavec{\delka}{\konzultant \\ \pracovisteKonz}  % VYMAŽTE text "-- %" v případě, že jste neměli konzultanta
+ \\[1em]  
+  \multicolumn{2}{l}{\odstavec{\textwidth}{{\em Abstrakt:} ~ \abstrCZ  }} \\[1em]
+  {\em Klíčová slova:} & \odstavec{\delka}{\klicova} \\[2em]
+
+  {\em Title:} & ~\\
+  \multicolumn{2}{l}{\odstavec{\textwidth}{\bf \nazeven}}\\[1em]
+  {\em Author:} & \autor \\[1em]
+  \multicolumn{2}{l}{\odstavec{\textwidth}{{\em Abstract:} ~ \abstrEN  }} \\[1em]
+  {\em Key words:} & \odstavec{\delka}{\keyword}
+\end{tabular}
+
+
+
+%%%%%%%%%%%% Obsah práce ... je generován AUTOMATICKY %%%%%%%%%%%%
+\newpage  % SEM NESAHEJTE!
+\parskip=0pt
+\tableofcontents % SEM NESAHEJTE!
+\parskip=7pt
+\parskip=0pt
+\listoffigures
+\parskip=7pt
+\parskip=0pt
+\listoftables
+\parskip=7pt
+\newpage % SEM NESAHEJTE!
+
+
+%--------------------------------------------------------
+%|         Zde začíná SAMOTNÁ PRÁCE (text)              |
+%--------------------------------------------------------
+
+\chapter*{Úvod} % SEM NESAHEJTE!
+\addcontentsline{toc}{chapter}{Úvod} % SEM NESAHEJTE!
+
+\input{./01_uvod/uvod.tex}
+\chapter{Termohydraulické systémové kódy}
+\input{./02_teorie/teorie.tex}
+\chapter{Benchmarková úloha}
+\input{./03_benchmark/benchmark.tex}
+\chapter{Termohydraulický model palivového článku IRT-4M}
+\input{./04_TH_model_IRT/model_IRT.tex}
+\chapter{Termohydraulický model reaktoru VR-1}
+\input{./05_TH_model_VR_1/model_VR_1.tex}
+\chapter{Hodnocení termohydraulických modelů}
+\input{./06_hodnoceni_TH_modelu/hodnoceni_TH_modelu.tex}
+
+%\input{vnitrek_kapitola1.tex} % text vkládán ze souboru. Pokud je v souboru uveden i příkaz \chapter{...}, tak ho o 4 řádky výše vymažte.
+
+
+\chapter*{Závěr} % SEM NESAHEJTE!
+\addcontentsline{toc}{chapter}{Závěr} % SEM NESAHEJTE!
+%\input{./06_zaver/zaver.tex}
+
+
+%%%%%%%%%%%% SEZNAM POUŽITÝCH ZDROJŮ (LITERATURA) %%%%%%%%%%%%
+%\clearpage  % SEM NESAHEJTE!
+%\addcontentsline{toc}{chapter}{Literatura} % SEM NESAHEJTE!
+
+
+
+\bibliographystyle{plain}
+\bibliography{ref} 
+%\begin{thebibliography}{99}   
+%	% formát: ČSN ISO 690. Můžete si to vygenerovat na http://www.citacepro.com (přihlaste se přes odkaz "ČVUT"), umí to vygenerovat TeX
+%	% řazení: abecedně podle autora (resp. prvního slova, není-li znám autor)
+%	\bibitem{odkaz} Autor. \ti{Název knihy}. Město. Nakladatelství. Rok.  
+%\end{thebibliography}
+
+
+%%%%%%%%%%%% PŘÍLOHY PRÁCE %%%%%%%%%%%%
+\newpage % SEM NESAHEJTE!
+\addcontentsline{toc}{chapter}{Přílohy} % SEM NESAHEJTE!
+\appendix % SEM NESAHEJTE!
+
+
+%%%%%%%%%%%% Příloha A (tj. 1. kapitola v rámci příloh) %%%%%%%%%%%%
+\chapter{Přehled modelů}
+\input{./07_prilohy/prehled_modelu.tex}
+\chapter{Tabulky}
+%
+
+\input{./07_prilohy/tabulky.tex}
+\chapter{Obrázky}
+\input{./07_prilohy/obrazky.tex}
+%
+%\input{priloha_A.tex} % text vkládán ze souboru, kde je i příkaz \chapter{...}
+
+
+\end{document} % SEM NESAHEJTE! Konec.

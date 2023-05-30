@@ -1,0 +1,51 @@
+
+%% === nezbytné balíčky:
+\usepackage[T1]{fontenc} % kódování písma
+%\usepackage{dsfont} %citace
+%\usepackage[nottoc]{tocbibind}      % citace
+\usepackage[utf8]{inputenc}     % vstupní znaková sada tohoto dokumentu: UTF-8
+\usepackage[nottoc]{tocbibind}
+\usepackage{makecell}
+\usepackage{nameref}
+\usepackage{lmodern}
+\usepackage{xargs}
+\usepackage[title]{appendix}
+\usepackage{import}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18, width=10cm}
+\usepackage{subcaption}
+\usepackage[font=scriptsize]{caption}
+%\usepackage[cp1250]{inputenc}  % vstupní znaková sada tohoto dokumentu: Windows 1250
+%\usepackage[latin2]{inputenc}  % vstupní znaková sada tohoto dokumentu: ISO Latin 2
+
+\usepackage[czech]{babel} % česky psaná práce, typografická pravidla. Překládejte pomocí "latex.exe" nebo "pdflatex.exe"
+%\usepackage{czech} % česky psaná práce. Překládejte pomocí "pdfCSlatex.exe" ("cslatex.exe" asi bude mít problém s balíkem geometry)
+
+\usepackage[a4paper, hmarginratio=3:2]{geometry} % využití A4 stránky a nastavení okrajů (u vazby bude širší)
+
+\usepackage{pdfpages} % pokud nemáte formulář "Zadání bak./dipl. práce" naskenovaný jako PDF, tak ZAKOMENTUJTE
+\usepackage[hidelinks]{hyperref} % v PDF budou klikací odkazy ("hidelinks" je nebude rámovat)
+
+%% === balíčky, které se mohou hodit:
+%\usepackage{encxvlna} % postará se o spojky a předložky, které dle českých pravidel nesmí být na konci řádku. Dokumentace: http://texdoc.net/texmf-dist/doc/generic/encxvlna/encxvlna.pdf (chová se správně k "vnitřku" listings?)
+
+\usepackage{graphicx} % balíček pro vkládání rastrových grafických souborů (PNG apod.)
+%\usepackage{epsfig} % balíčky pro vkládání grafických souborů typu EPS
+\usepackage{float} % rozšířené možnosti umístění obrázků
+
+\usepackage{caption} % pro popisky obrázků, tabulek atd.
+
+\usepackage{tabularx} % rozšířené možnosti tabulek
+%\usepackage{tabu} % jiný balík pro rozšířené možnosti tabulek
+
+\usepackage{listings}  % balíček vhodný pro ukázky zdrojového kódu v~textu práce/příloh. Nutno nastavit! http://ftp.cvut.cz/tex-archive/macros/latex/contrib/listings/listings.pdf
+\usepackage{amsmath} % balíček pro pokročilou matematickou sazbu
+%\usepackage{color} % pro možnost barevného textu
+%\usepackage{fancybox} % umožňuje pokročilé rámečkování
+\usepackage{fancyhdr} % Tvorba záhlaví a zápatí
+\usepackage{adjustbox} %umožnuje upravit velikost tabulek atd.
+\usepackage[scientific-notation=true]{siunitx}
+\sisetup{exponent-product = \cdot, output-decimal-marker={,}}
+%\usepackage{index} % nutno použít v případě tvorby rejstříku balíčkem makeindex
+%\usepackage{xcolor} % balíček pro barvy
+%\newindex{default}{idx}{ind}{Rejstřík} % zavádí rejstřík v případě použití balíku index

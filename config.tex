@@ -1,0 +1,75 @@
+\frenchspacing % za větou bude mezislovní mezera (v anglických textech je mezera za větou delší)
+\widowpenalty=1000 % "síla" zákazu vdov (= jeden řádek ze začátku odstavce na konci stránky)
+\clubpenalty=1000% "síla" zákazu sirotků (= jeden řádek/slovo z konce odstavce samostatně na začátku stránky)
+\brokenpenalty=1000 % "síla" zákazu zlomu stránky za řádkem, který má na konci rozdělené slovo
+\raggedbottom         % Nastaví, že místo roztahování textu bude normální hustý text s mezerou
+\topmargin=-10mm      % horní okraj trochu menší
+\textwidth=150mm      % šířka textu na stránce
+\textheight=250mm     % "výška" textu na stránce
+
+
+\pagenumbering{arabic} % číslování stránek arabskými číslicemi
+
+\fancypagestyle{myheader}{
+	\fancyhf{}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyhead[LO]{\rightmark}
+	\fancyhead[RE]{\leftmark}
+}
+
+\pagestyle{myheader}      % stránky číslované dole uprostřed
+
+\parindent=2em % odsazení 1. řádku odstavce
+\parskip=7pt   % mezera mezi odstavci
+
+
+
+
+%\def\baselinestretch{1.5}\normalsize % nastavím řádkování
+
+\renewcommand{\baselinestretch}{1.1}
+
+\newcommand{\ti}{\textit} % zkrácený příkaz pro kurzívu
+\newcommand{\tb}{\textbf} % zkrácený příkaz pro tučné písmo
+
+
+\captionsetup{font=small, justification=centering} % velikost popisků 
+
+
+%% --- zde jsou zavedeny některé "konstanty" - některé musíte změnit! --- %%
+\newcommand{\cvut}{České vysoké učení technické v~Praze}
+\newcommand{\fjfi}{Fakulta jaderná a fyzikálně inženýrská}
+\newcommand{\kjr}{Katedra jaderných reaktorů}
+\newcommand{\program}{Aplikace přírodních věd} % změňte, pokud máte jiný stud. program
+\newcommand{\obor}{Jaderné inženýrství} % změňte, pokud máte jiný obor
+
+\newcommand{\druh}{Výzkumný úkol} % nebo "Diplomová práce"
+\newcommand{\woman}{} % pokud jste ŽENA, ZMĚŇTE na: ...{\woman}{a} (je to do Prohlášení)
+
+\newcommand{\logoCVUT}{\includegraphics{./zadani_logo/symbol_cvut_konturova_verze_cb.pdf}} % logo ČVUT -- podle grafického manuálu ČVUT platného od prosince 2016. Pokud nevyhovuje PDF-verze, tak použijte jinou variantu loga: https://www.cvut.cz/logo-a-graficky-manual -> "Symbol a logo ČVUT v Praze"). Pokud chcete logo úplně vynechat, zadejte místo "\includegraphics{...}" text "\vspace{35mm}"
+
+% přesně podle formuláře "Zadání bak./dipl. práce" VYPLŇTE:
+\newcommand{\nazevcz}{Termohydraulický model školního reaktoru VR-1}    % český název práce (přesně podle zadání!)
+\newcommand{\nazeven}{Thermohydraulic model of training reactor VR-1}          % anglický název práce (přesně podle zadání!)
+\newcommand{\autor}{Bc. Jakub Mátl}   % vyplňte své jméno a příjmení (s akademickým titulem, máte-li jej)
+\newcommand{\vedouci}{Ing. Filip Fejt, Ph.D.} % vyplňte jméno a příjmení vedoucího práce, včetně titulů, např.: Doc. Ing. Ivo Malý, Ph.D.
+\newcommand{\pracovisteVed}{\kjr, \fjfi, \cvut} % ZMĚŇTE, pokud vedoucí Vaší práce není z KSI
+\newcommand{\konzultant}{--} % POKUD MÁTE určeného konzultanta, NAPIŠTE jeho jméno a příjmení
+\newcommand{\pracovisteKonz}{--} % POKUD MÁTE konzultanta, NAPIŠTE jeho pracoviště
+
+% podle skutečnosti VYPLŇTE:
+\newcommand{\rok}{2023}  % rok odevzdání práce (jen rok odevzdání, nikoli celý akademický rok!)
+\newcommand{\kde}{Praze} % studenti z Děčína ZMĚNÍ na: "Děčíně" (doplní se k "prohlášení")
+
+\newcommand{\klicova}{Klíčová slova}   % zde NAPIŠTE česky max. 5 klíčových slov
+\newcommand{\keyword}{Key words}       % zde NAPIŠTE anglicky max. 5 klíčových slov (přeložte z češtiny)
+\newcommand{\abstrCZ}{Systémové termohydraulické kódy tvoří nedílnou součást analýzy přechodových jevů a nehod na jaderných zařízeních. Prvotní účel těchto kódů byla aplikace na komekční energetické reaktoru, avšak v posledních letech je kladen důraz na validaci těchto kódů pro použití na výzkumných reaktorech. Jedním z problémů systémových kódů je možnost volné nodalizace kontrolních objemů, což může být pro simulaci přirozeného proudění na výzkumných reaktorech zcela zásadní. Cílem práce je aplikace termohydraulického kódu RELAP5/MOD3 k vytvoření termohydraulického modelu školního reaktoru VR-1 a studie vlivu nodalizace na vznik přirozeného proudění.}    % zde NAPIŠTE abstrakt v češtině (cca 7 vět, min. 80 slov)
+\newcommand{\abstrEN}{
+	System thermohydraulic codes constitute an integral part of the analysis of transients and accidents in nuclear facilities. The initial purpose of these codes was their application to commercial power reactors, but in recent years, emphasis has been placed on validating these codes for use in research reactors. One of the challenges of system-level codes is the free nodalization of control volumes, which can be crucial for simulating natural circulation. The aim of this work is to apply the thermohydraulic code RELAP5/MOD3 to create a thermohydraulic model of the VR-1 research reactor and to study the influence of nodalization on the natural circulation phenomena.} % zde NAPIŠTE abstrakt v angličtině
+
+\newcommand{\prohlaseni}{Prohlašuji, že jsem sůj výzkumný úkol vypracoval\woman{} samostatně a použil\woman{} jsem pouze podklady (literaturu, projekty, SW atd.) uvedené v přiloženém seznamu.} % text prohlášení můžete mírně upravit :-)
+
+\newcommand{\podekovani}{Děkuji Lindě za oběd, měl jsem opravdu hlad.} % NAPIŠTE poděkování, např. svému vedoucímu:
+% Děkuji Ing. Eleonoře Krtečkové, Ph.D. za vedení mé bakalářské práce a za podnětné návrhy, které ji obohatily.
+% NEBO:
+% Děkuji vedoucímu práce doc. Pafnutijovi Snědldítětikaši, Ph.D. za neocenitelné rady a pomoc při tvorbě bakalářské práce.
